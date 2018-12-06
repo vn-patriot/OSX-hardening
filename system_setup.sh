@@ -164,7 +164,7 @@ echo "Beginning remediation"
         /usr/sbin/cupsctl --no-share-printers
         
         # 2.4.5 Disable Remote Login (Scored)
-        sudo yes | systemsetup -setremotelogin off
+        sudo yes yes | systemsetup -setremotelogin off
         # yes | to automatically respond yes when prompted
         
         # 2.4.6 Disable DVD or CD Sharing (Scored) - MANUAL
