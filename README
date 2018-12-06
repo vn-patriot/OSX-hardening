@@ -1,0 +1,15 @@
+#set -x
+
+# This script was created to automate terminal commands for implementation of settings as outlined in:
+#
+#       CIS Apple OSX 10.12 Benchmark
+#
+
+# Open Terminal and navigate to the directory in which it resides then run the following command:
+# chmod 755 *.sh
+# To check the compliant current state 
+# ./audit.sh > current.html
+#
+
+# To run the remediation 
+# ./system_setup.sh
